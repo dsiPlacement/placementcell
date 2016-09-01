@@ -18,6 +18,6 @@
     - MTech data(if user has done MTech, show only one)
       - User can select one among the above 
       
-      NOTE:For MTech, user only inputs BE aggregate and not more details
+      NOTE:All BE fields are mandatory for MTech fields. Refer [Registration fields] (RegistrationFields.md) file for detailed report on fields.
   - Finally redirect him to dashboard where more data is shown
 - Else direct him to dashboard(design yet to implement)
