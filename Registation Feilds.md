@@ -1,3 +1,6 @@
+Common fields are applicable for all branches and all the exclusive fields which are only applicable for particular
+branches are mentioned in exclusive sections.
+
 Common fields :
 	USN
 	Full Name 
@@ -107,5 +110,5 @@ Exclusive MCA Fields  :
 	PG Year of Passing
 	PG University
 	Total Number of Backlogs in PG
-	Allotment through (Management / CET / Comed-K)
+
 
