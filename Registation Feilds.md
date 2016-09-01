@@ -108,4 +108,4 @@ Exclusive MCA Fields  :
 	PG University
 	Total Number of Backlogs in PG
 	Allotment through (Management / CET / Comed-K)
-	Rank (CET / Comed-K / Any other)
+
