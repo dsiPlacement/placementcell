@@ -1,5 +1,4 @@
-### Common fields are applicable for all branches and all the exclusive fields which are only applicable for particular
-### branches are mentioned in exclusive sections.
+### Common fields are applicable for all branches and all the exclusive fields which are only applicable for particular branches are mentioned in exclusive sections.
 
 ## Common fields :
 	1. USN
