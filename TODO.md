@@ -16,7 +16,8 @@
     - BE data(if user selects BE, show the fields)
     - MCA data(if user selects MCA, show the fields)
     - MTech data(if user has done MTech, show only one)
-      - User can select one among the above 3
+      - User can select one among the above 
+      
       NOTE:For MTech, user only inputs BE aggregate and not more details
   - Finally redirect him to dashboard where more data is shown
 - Else direct him to dashboard(design yet to implement)
