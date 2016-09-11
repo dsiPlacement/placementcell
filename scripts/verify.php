@@ -10,7 +10,7 @@
 	$conn=initConnection("student");
 	if(is_null($usn)) 
 	{
-            echo "something is fisshyyy..!!!";
+            echo "something is fisshyyy..!!!"; //Redirect to access denied Error
 	}
 	else 
         {
@@ -24,12 +24,12 @@
             }
             else
             {
-                redirect("be_student_registration.php");
+                redirect("student_registration.php");
             }
         }
     }
     else
     {
-	echo "Something went wrong..!!";
+	echo "Something went wrong..!!"; // Redirect to Access denied Error page
     }
 ?>

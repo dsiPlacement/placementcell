@@ -1,0 +1,29 @@
+
+.content > p {
+  align: center;
+ color: rgba(0,9,0,1.0);
+ font-style: oblique;
+ text-shadow : -0.1px 0.1px 0.5px rgba(0,30,255,0.9);
+}
+
+footer.footer {
+  text-align: center;
+  margin-top: 10%;
+  border-top: 1px solid #E5E5E5;
+}
+
+.ui.footer.segment {
+    margin: 25em 0em 0em;
+    padding: 2em 0em;
+}
+.ui.sidebar.custom {
+  top: 9%;
+  margin-bottom: 50%;
+  height: 50%;
+  z-index: 0;
+}
+
+.ui.dashboard {
+  margin-left: 16%;
+  margin-top: 4.4%;
+}

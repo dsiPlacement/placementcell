@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="../css/defined.css">
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.css">
         <script src="js/jquery.min.js"> </script>
         <script src="js/jquery-ui.min.js"> </script>
 	<script src="js/jquery-ui.js"> </script>
@@ -34,11 +35,23 @@
                 else {
                     echo "Wrong Password";
                 }
-            }
-                    
+            }             
         ?>
         
         <div class="login-parallax">
+            <div class="container-fluid header">
+      <nav class="navbar navbar-fixed-top">
+          <ul class="topnav nav nav-pills">
+            <li><b style="font-size:30px;color:#ffffff;">Placementcell</b></li>
+            <li class="right"><a class="active" href="../index.php">Home</a></li>
+              <li class="right"><a href="#collegeBlog">College Blog</a></li>
+              <li class="right"><a href="#contact">Contact Us</a></li>
+              <li class="right"><a href="#about">About Us</a></li>
+              <li class="right"><a href="#about">Partners</a></li>
+          </ul>
+      </nav>
+    </div> 
+  <!--Navigation bar ends-->
         <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="login">
                 <div class="form-group">
@@ -53,8 +66,6 @@
             </div>
         </form>
         </div>
-        <div style="bottom: 0;">
-            <?php include 'footer.php'; ?>
-        </div>
+        <?php include 'footer.php'; ?>
     </body>
 </html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>Dashboard | Student</title>
+    <script type="text/javascript" src="../js/angular.min.js"></script>
+    <script type="text/javascript" src="../js/semantic.js"></script>
+    <script type="text/javascript" src="studentDashboard.js"></script>
+    <link rel="stylesheet" href="../css/semantic.css" />
+    <link rel="stylesheet" href="dashboard.css"  />
+    <!--script src="http://www.w3schools.com/lib/w3data.js"></script-->
+    <script type="text/javascript" src="../js/angular-route.js"></script>
+  </head>
+  <body  ng-app="studentDashboard">
+    <div class="ui borderless main fixed top menu">
+      <div class="ui container">
+        <div class="left header brand item">
+          <span class="incon world"><h3>Placementcell</h3></span>
+        </div>
+
+        <a class="item">Parteners</a>
+        <a class="item">About</a>
+        <a class="item">Contact</a>
+        <a class="item">Past Statistics</a>
+        <div class="right menu">
+          <div class="item">
+            <button class="ui basic blue button"><i class="icon power"></i> Logout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--header end-->
+
+      <!--Sidebar Menu-->
+      <div ng-controller="sidebar" class="ui visible vertical menu sidebar custom">
+        <div ng-repeat="page in pageList">
+          <a ng-class="{item : true, active: $route.current.activetab == 'page.pageName'}"  href="#{{page.link}}">{{ page.pageName }}</a>
+        </div>
+      </div>
+
+
+            <div class="ui dashboard segment fixed">
+              <div class="ui  scrollable">
+                <ng-view>
+              </div>
+            </div>
+
+  <div class="ui inverted vertical footer segment">
+    <div class="ui center aligned container">
+      <div class="ui stackable inverted divided grid">
+        <div class="three wide column">
+          <h4 class="ui inverted header">Contact</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">Contact Admin</a>
+            <a href="#" class="item">Contact Developers</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header">Developers</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">Suggest something.</a>
+            <a href="#" class="item">Report bugs</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header">Comapany</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">How It Works!</a>
+            <a href="#" class="item">About US</a>
+          </div>
+        </div>
+        <div class="seven wide column">
+          <h4 class="ui inverted header">Placementcell.com</h4>
+          <p>Hiring platform for freshers</p>
+        </div>
+      </div>
+      <div class="ui inverted section divider"></div>
+      <p>All Rights Reserved &copy; 2016
+      <strong><a href="../index.php">Placementcell Inc.</a></strong> | Made with <i class="icon small inverted heart"></i> in Banglore.
+    </div>
+  </body>
+</html>

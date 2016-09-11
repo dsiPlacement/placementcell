@@ -168,7 +168,9 @@
 <!--End of Company division-->
 <div class="homeparallaxbottom" id="aboutPlacementcell">
 <div class="container content">
-<p>DSI has an elite placement division to facilitate the placements for all students. The Centre provides pre-placement training in soft skills to all students to enable them to apprise to the modern corporate requirements in association with CIL - Centre for Innovation &amp; Leadership and HR Division.</p>
+    <h3 style="color:rgba(0,92,230,0.8); text-shadow:1px 1px 1px rgba(0,22,55, 0.7); font-weight:bolder;"> About Placementcell </h3>
+    <br>
+    <p>DSI has an elite placement division to facilitate the placements for all students. The Centre provides pre-placement training in soft skills to all students to enable them to apprise to the modern corporate requirements in association with CIL - Centre for Innovation &amp; Leadership and HR Division.</p>
 <p>The Placement Division also supports training in CV Writing, Aptitude Assessment, Mock interviews, Group Discussion etc.,</p>
 <p>Internship opportunities in various companies will be provided for interested UG/PG students.</p>
 <p>DSI is committed to provide best talent for corporates.</p>

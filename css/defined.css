@@ -135,7 +135,7 @@ input.uppercase {
 }
 
 .header {
-    position:fixed;
+    position:relative;
     padding: 1px;
     font-size: 18px;
     top: 0;
@@ -185,10 +185,10 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover.active {
-  background-color: #bb134d;
-  color: #fff;
-transition: all .3s;
-transform:scale(.9,.8);
+    background-color: #bb134d;
+    color: #fff;
+    transition: all .3s;
+    transform:scale(.9,.8);
  }
 
 ul.topnav li a:hover:not(.active) {
